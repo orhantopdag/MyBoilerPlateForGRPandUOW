@@ -13,6 +13,7 @@ namespace Data
         {
             this.context = context;
             Repository = new Repository<T>(context);
+
         }
         public IRepository<T> Repository { get; }
 
